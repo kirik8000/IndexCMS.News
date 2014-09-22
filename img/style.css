@@ -1,0 +1,83 @@
+body {
+	background-color: #13B0FF;
+	background-image: url("36lannews.png");
+background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top right;
+	}
+p {
+	text-indent: 30px;
+	}
+p.text {
+color:#FFFFFF;
+}
+	
+/*  перечеркнутый текст ниже*/
+perech { 
+	text-decoration: line-through;
+	}
+a.menu {
+color:#FFFFFF;
+text-decoration:none;
+}
+a:hover.menu {
+	color: black;
+	font-style: bold;
+	}
+
+blok {
+	border-width: thick;
+	border-style: dotted;
+	border-color: gold;
+	}
+
+
+ TABLE.index {
+    width: 70%; /* Ширина таблицы */
+    border-top-left-radius:10px;
+	moz-border-radius: 10px; /* Firefox */
+-webkit-border-radius: 10px; /* Safari, Google Chrome */
+-khtml-border-radius: 10px; /* KHTML */
+-o-border-radius: 10px; /* Opera */
+-ms-border-radius: 10px; /* IE8 */
+border-radius: 10px; /* CSS3 */
+
+    border-spacing: 0px 0px; /* Расстояние между границ */
+   }
+TD.new {  width: 5%; 
+}
+TD.newtext { 
+ width: 80%;
+ border-radius:10px 10px 0 0;
+-webkit-border-radius:10px 10px 0 0;
+-moz-border-radius:10px 10px 0 0;
+-ms-border-radius:10px 10px 0 0;
+-o-border-radius:10px 10px 0 0;
+-khtml-border-radius: 10px 10px 0  0;
+}
+
+TD.topnew {
+border-radius:0 0 10px 10px;
+-webkit-border-radius:0 0 10px 10px;
+-moz-border-radius:0 0 10px 10px;
+-ms-border-radius:0 0 10px 10px;
+-o-border-radius:0 0 10px 10px;
+-khtml-border-radius:0 0 10px 10px;
+}
+
+#wind {
+       position: absolute;
+    width:320px;
+    left: 35%;
+      top: 100px;
+    border:solid #105a98 4px;
+    display: none;
+      z-index: 10;
+    overflow: hidden;
+    background-color:#348c03;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+}
+
+

@@ -1,0 +1,3 @@
+#Redirect to install.php
+DirectoryIndex install.php index.php doku.php
+#This file should remove after installation
